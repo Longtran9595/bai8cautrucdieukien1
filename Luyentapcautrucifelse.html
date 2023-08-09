@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập với cấu trúc if/else</title>
+</head>
+<body>
+<h1>ANSWER THE QUESTION</h1>
+<h3>What is the “official” name of JavaScript?</h3>
+<input type="text" id="ans">
+<button type="button" onclick="OK()">OK</button>
+<script>
+    function OK() {
+        let a = document.getElementById("ans").value;
+        if ( a === 'ECMAScript') {
+            alert('Right')
+        }
+        else {
+            alert('Didn’t know? ECMAScript')
+        }
+    }
+</script>
+</body>
+</html>

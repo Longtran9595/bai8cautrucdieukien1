@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập với cấu trúc if/else</title>
+</head>
+<body>
+<script>
+    let username = prompt('Nhập Usernam: ','');
+    if (username === "admin") {
+        let ps = prompt('Nhập password','');
+        if (ps === 'TheMaster') { alert('Welcome')}
+        else if (ps === 'Null'){ alert('Canceled')}
+        else { alert('Wrong password')}
+    }
+    else if ( username === null) {
+        document.write('canceld')
+    }
+    else { document.write('I don’t know you')}
+</script>
+</body>
+</html>

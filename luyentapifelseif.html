@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập với cấu trúc if...else...if</title>
+</head>
+<body>
+<h1>ĐĂNG NHẬP</h1>
+<h3>Tên đăng nhập</h3>
+<input type="text" id="ten">
+<button type="button" onclick="OK()">Ok</button>
+<div id="pw" style="visibility: hidden">
+
+    <p>password</p><input><h2>abchsdf</h2>
+</div>
+<script>
+    function OK() {
+        let a = document.getElementById("ten").value;
+        if ( a === 'Admin') {
+            document.getElementById('pw').style.visibility = 'visible'
+        }
+    }
+</script>
+</body>
+</html>
